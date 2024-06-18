@@ -5,9 +5,9 @@
                 <div class="container-fluid p-0">
 
                     <a href="" class="navbar-brand d-md-none" title="{{ .Site.Title }}">
-                        <img src="{{ absURL $.Site.Params.images.logoCollapseLight }}" class="logo-light"
+                        <img src="{{ relURL $.Site.Params.images.logoCollapseLight }}" class="logo-light"
                             alt="{{ .Site.Title }}">
-                        <img src="{{ absURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
+                        <img src="{{ relURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
                             alt="{{ .Site.Title }}">
                     </a>
 
@@ -90,8 +90,8 @@
                         {{ end }}
                         <!-- 一言 end -->
                         <li class="nav-search ml-3 ml-md-4">
-                            <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
-                                    class="iconfont icon-search icon-2x"></i></a>
+                            <!-- <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
+                                    class="iconfont icon-search icon-2x"></i></a> -->
                         </li>
                         <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
                             <a href="javascript:" id="sidebar-switch" data-toggle="modal"
