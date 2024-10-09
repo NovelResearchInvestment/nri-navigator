@@ -234,7 +234,7 @@
               url: https://www.chinabond.com.cn/
               description: 债券信息官网
             - title: 中债收益率曲线
-              logo: https://api.iowen.cn/favicon/yield.chinabond.com.cn.png
+              logo: https://api.iowen.cn/favicon/www.chinabond.com.cn.png
               url: https://yield.chinabond.com.cn/
               description: 中债收益率曲线
             - title: 国家统计局
@@ -265,6 +265,14 @@
               logo: https://api.iowen.cn/favicon/www.global-rates.com.png
               url: https://www.global-rates.com/
               description:
+            - title: CME FedWatch
+              logo: https://api.iowen.cn/favicon/www.cmegroup.com
+              url: https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html
+              description: 联邦利率观察工具
+            - title: 全球利率
+              logo: https://api.iowen.cn/favicon/polymarket.com
+              url: https://polymarket.com/elections
+              description: 美国大选民调
         - term: 中观资讯
           links:
             - title: 中国工信部
