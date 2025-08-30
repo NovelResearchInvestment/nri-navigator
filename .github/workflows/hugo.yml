@@ -7,9 +7,9 @@ on:
 
 jobs:
   deploy: 
-    runs-on: ubuntu-20.04 	# 在什么环境运行任务
+    runs-on: ubuntu-latest 	# 在什么环境运行任务
     steps:
-      - uses: actions/checkout@v3   # 引用 actions/checkout 这个 action，与所在的 github 仓库同名
+      - uses: actions/checkout@v4   # 引用 actions/checkout 这个 action，与所在的 github 仓库同名
         with:
          submodules: true  # Fetch Hugo themes (true OR recursive) 获取 submodule 主题
          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -25,7 +25,7 @@ jobs:
           pwd
           ls
           cp -R exampleSite/* .
-          hugo --themesDir ../ --baseURL https://shenweiyan.github.io/WebStack-Hugo/
+          hugo --themesDir ../ --baseURL https://webstack-hugo.weiyan.cc/
           
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3	  # 一个自动发布 github pages 的 action
@@ -42,4 +42,5 @@ jobs:
           #注意这里指的是 Pages 要发布哪个文件夹的内容，而不是指发布到目标仓库的什么位置；因为 hugo 默认生成静态网页到 public 文件夹，所以这里发布 public 文件夹里的内容。
           publish_branch: gh-pages	# 发布到哪个 branch
           force_orphan: true
+          cname: webstack-hugo.weiyan.cc
           full_commit_message: ${{ github.event.head_commit.message }}

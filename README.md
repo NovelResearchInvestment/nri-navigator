@@ -1,16 +1,19 @@
+> [!NOTE]
+> **2025年05月17日：更多新功能，请参考：<https://github.com/PagesX> 项目！**
+
+
 # 一个基于 Hugo 的静态响应式网址导航主题 
 
 本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，是一个基于 Hugo 的静态响应式网址导航主题。<br/>
 
 ## 主题开源地址
 
-- **GitCode：** [https://gitcode.com/shenweiyan/WebStack-Hugo](https://gitcode.com/shenweiyan/WebStack-Hugo/overview)
-- **GitHub：** [https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
+[**GitHub**](https://github.com/shenweiyan/WebStack-Hugo) | [**Gitee**](https://gitee.com/shenweiyan/WebStack-Hugo) | [**GitCode**](https://gitcode.com/shenweiyan/WebStack-Hugo)
 
 ## 主题演示地址
 
-- 站点：[https://bioit.top](https://bioit.top)
-- 源码：<https://github.com/shenweiyan/Bioit-top>
+- 站点：<https://shenweiyan.github.io/WebStack-Demo/>
+- 源码：<https://github.com/shenweiyan/WebStack-Demo>
 
 
 ## 特色功能
@@ -63,10 +66,9 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 
 关于 Windows/Linux 下详细的安装与使用说明，请参考文档。
 
-> [!TIP] 
-> 链接1：**[shenweiyan/Knowledge-Garden#10](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)**
-> 
-> 链接2：**<https://weiyan.cc/kg-discussions-10>**
+📗 **《WebStack-Hugo | 一个静态响应式导航主题》** 
+- [链接1 - GitHub Discussions](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)
+- [链接2 - 维燕的知识花园](https://weiyan.cc/kg-discussions-10)
 
 
 ## 感谢
@@ -87,4 +89,8 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 如果你觉得本项目对你有所帮助，欢迎请作者喝杯热咖啡 >.<
 
 ![donate-wecaht-aliapy](https://user-images.githubusercontent.com/26101369/212630361-aa393be8-581e-4a97-bfe2-256e883791fb.jpg)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=shenweiyan/WebStack-Hugo&type=Date)](https://star-history.com/#shenweiyan/WebStack-Hugo&Date)
 
