@@ -21,7 +21,6 @@
                                     <path class="line--3" d="M0 60h62c18 0 18 20-17-5L31 45"></path>
                                 </svg>
                             </label>
-
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
@@ -39,6 +38,17 @@
 			    </li>
 			{{ end }}
 			</ul>
+                    </div>
+
+                    <!-- 头部中央时间显示 -->
+                    <div class="navbar-center-time order-1 order-md-2">
+                        <div id="central-time-clock" class="central-time-display">
+                            <div class="time-wrapper">
+                                <div id="central-current-time" class="central-current-time">00:00:00</div>
+                                <div id="central-current-date" class="central-current-date">加载中...</div>
+                            </div>
+                        </div>
+                    </div>
 
                         {{ if not (eq $.Site.Params.qweather.key "") }}
                         <div class="rounded-circle weather">
@@ -71,24 +81,7 @@
                         {{ end }}
                     </div>
 
-                    <ul class="nav navbar-menu text-xs order-1 order-md-2">
-                        <!-- 一言 -->
-                        {{ with .Site.Params.yiyan }}
-                        <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
-                            <script>
-                                fetch('https://v1.hitokoto.cn')
-                                    .then(response => response.json())
-                                    .then(data => {
-                                    const hitokoto = document.getElementById('hitokoto_text')
-                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
-                                    hitokoto.innerText = data.hitokoto
-                                    })
-                                    .catch(console.error)
-                            </script>                           
-                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
-                        </li>
-                        {{ end }}
-                        <!-- 一言 end -->
+                    <ul class="nav navbar-menu text-xs order-1 order-md-3">
                         <!--li class="nav-search ml-3 ml-md-4">
                             <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
                                     class="iconfont icon-search icon-2x"></i></a>
@@ -103,3 +96,68 @@
         </div>
         <div class="placeholder" style="height:74px"></div>
     </div>
+
+    <!-- 中央时间显示的JavaScript -->
+    <script>
+        function updateCentralTime() {
+            // 使用世界时间API获取准确时间
+            fetch('https://worldtimeapi.org/api/timezone/Asia/Shanghai')
+                .then(response => response.json())
+                .then(data => {
+                    const datetime = new Date(data.datetime);
+                    updateCentralDisplay(datetime);
+                })
+                .catch(() => {
+                    // 如果API失败，使用本地时间
+                    const now = new Date();
+                    updateCentralDisplay(now);
+                });
+        }
+        
+        function updateCentralDisplay(datetime) {
+            const timeElement = document.getElementById('central-current-time');
+            const dateElement = document.getElementById('central-current-date');
+            
+            // 格式化时间 (HH:MM:SS) 带动画效果
+            const timeString = datetime.toLocaleTimeString('zh-CN', {
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+            
+            // 格式化日期
+            const dateString = datetime.toLocaleDateString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                weekday: 'short'
+            });
+            
+            if (timeElement) {
+                // 添加闪烁效果
+                if (timeElement.textContent !== timeString) {
+                    timeElement.style.transform = 'scale(1.05)';
+                    setTimeout(() => {
+                        timeElement.style.transform = 'scale(1)';
+                    }, 100);
+                }
+                timeElement.textContent = timeString;
+            }
+            if (dateElement) dateElement.textContent = dateString;
+        }
+        
+        // 页面加载完成后开始更新时间
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCentralTime();
+            
+            // 每秒更新显示
+            setInterval(() => {
+                const now = new Date();
+                updateCentralDisplay(now);
+            }, 1000);
+            
+            // 每分钟同步一次准确时间
+            setInterval(updateCentralTime, 60000);
+        });
+    </script>
