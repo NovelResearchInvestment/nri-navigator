@@ -1,511 +1,598 @@
 - taxonomy: NRI Community
   icon: fas fa-film fa-lg
   list:
-        - term: NRI Tools
-          links:
-            - title: Jupyter Lab
-              logo: https://api.iowen.cn/favicon/lab.novrein.com.png
-              url: http://lab.novrein.com/
-              description: Jupyter 实验室
-            - title: Virtual Desktop Interface
-              logo: 
-              url: https://hc.novrein.com/
-              description: 云桌面，内网登陆
-            - title: Virtual Desktop Interface
-              logo: 
-              url: https://uag.novrein.com:4443
-              description: 云桌面，外网登陆
-            - title: Nextcloud
-              logo: https://api.iowen.cn/favicon/nx.novrein.com.png
-              url: https://nx.novrein.com/
-              description: Nextcloud网盘
-            - title: 问答社区
-              logo: https://api.iowen.cn/favicon/answer.novrein.com.png
-              url: http://answer.novrein.com/
-              description: 会员登录权限可向管理员申请
-
-        - term: External AI Tools
-          links:
-            - title: Perplexity
-              logo:
-              url: https://www.perplexity.ai/
-              description: AI搜索引擎 
-            - title: Prompt Perfect
-              logo: 
-              url: https://promptperfect.jina.ai/
-              description: 针对不同模型的提示语优化 Prompt Engineering
-            - title: Chatgpt
-              logo: 
-              url: https://chatgpt.com/
-              description: OpenAI 的 chatgpt
-
-
+  - term: NRI Tools
+    links:
+    - title: Jupyter Lab
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jupyter.org&size=128
+      url: http://lab.novrein.com/
+      description: Jupyter 实验室
+    - title: 云桌面（内网）
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cloud.vmwarehorizon.com&size=128
+      url: https://hc.novrein.com/
+      description: 虚拟桌面界面，内网登录
+    - title: 云桌面（外网）
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cloud.vmwarehorizon.com&size=128
+      url: https://uag.novrein.com:4443
+      description: 虚拟桌面界面，外网登录
+    - title: Nextcloud
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://nextcloud.com&size=128
+      url: https://nx.novrein.com/
+      description: Nextcloud网盘
+    - title: 问答社区
+      logo: https://icons.duckduckgo.com/ip3/answer.novrein.com.ico
+      url: http://answer.novrein.com/
+      description: 会员登录权限可向管理员申请
+  - term: External AI Tools
+    links:
+    - title: ChatGPT
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://chatgpt.com&size=128
+      url: https://chatgpt.com/
+      description: OpenAI ChatGPT
+    - title: Grok
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://grok.com&size=128
+      url: https://grok.com/
+      description: Grok Chatbot
+    - title: Perplexity
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://perplexity.ai&size=128
+      url: https://www.perplexity.ai/
+      description: AI搜索引擎
+    - title: Claude Prompts
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://promptadvance.club&size=128
+      url: https://promptadvance.club/claude-prompts
+      description: Claude AI 提示词库和技巧
+    - title: Prompt Perfect
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://promptperfect.jina.ai&size=128
+      url: https://promptperfect.jina.ai/
+      description: 针对不同模型的提示语优化 Prompt Engineering
 - taxonomy: 尽调工具
   icon: fas fa-film fa-lg
   list:
-        - term: 企业信息
-          links:
-            - title: 国家企业信用信息公示网站
-              logo: https://api.iowen.cn/favicon/www.gsxt.gov.cn.png
-              url: https://www.gsxt.gov.cn/index.html
-              description: 
-            - title: 企查查
-              logo: https://api.iowen.cn/favicon/www.qcc.com.png
-              url: https://www.qcc.com/
-              description: 查询企业信息。会员登录权限可向管理员申请
-            - title: 天眼查
-              logo: https://api.iowen.cn/favicon/www.tianyancha.com.png
-              url: https://www.tianyancha.com
-              description: 查询企业信息。会员登录权限可向管理员申请
-            - title: 巨潮信息
-              logo: https://api.iowen.cn/favicon/www.cninfo.com.cn.png
-              url: http://www.cninfo.com.cn/new/index
-              description: 查询上市公司公告信息
-        - term: 证书查验
-          links:
-            - title: 境外学历学位认证书在线查询
-              logo: https://api.iowen.cn/favicon/zwfwbl.cscse.edu.cn.png
-              url: http://zwfwbl.cscse.edu.cn/homeView/contactUs?type=2
-              description: 中国留学网---留学e网通服务大厅
-            - title: 中国高等教育学历证书查询
-              logo: https://api.iowen.cn/favicon/www.chsi.com.cn.png
-              url: https://www.chsi.com.cn/xlcx/lscx/query.do
-              description: 中国学信网
-            - title: FRM持证人查验
-              logo: https://api.iowen.cn/favicon/https://www.garp.org.png
-              url: https://www.garp.org/frm/our-certified-frms
-              description: FRM Directory Search
-            - title: CFA持证人查验
-              logo: https://api.iowen.cn/favicon/directory.cfainstitute.org.png
-              url: https://directory.cfainstitute.org/
-              description: CQF Member Directory Search
-            - title: 信息学竞赛选手获奖记录
-              logo: 
-              url: https://oier.baoshuo.dev/?advanced=1&province=&grade=&school=
-              description: 这是一个信息学竞赛选手获奖记录并对学校进行排名的数据库
-        - term: 法律诉讼
-          links:
-            - title: 无讼网
-              logo: https://api.iowen.cn/favicon/www.itslaw.com.png
-              url: https://www.itslaw.com/home
-              description: 诉讼案件查询
-            - title: 中国判决文书网
-              logo: https://api.iowen.cn/favicon/wenshu.court.gov.cn.png
-              url: https://wenshu.court.gov.cn/
-              description: 查询判决文书信息
-            - title: 中国执行信息公开网
-              logo: https://api.iowen.cn/favicon/zxgk.court.gov.cn.png
-              url: http://zxgk.court.gov.cn/
-              description: 
-        - term: 基金相关
-          links:
-            - title: 私募排排网
-              logo: https://api.iowen.cn/favicon/www.simuwang.com.png
-              url: https://www.simuwang.com/
-              description: 
-            - title: 火富牛FOF
-              logo: https://api.iowen.cn/favicon/mp.fof99.com.png
-              url: https://mp.fof99.com/index/v1
-              description: 
-            - title: 朝阳永续
-              logo: https://api.iowen.cn/favicon/cloud.12345fund.com.png
-              url: https://cloud.12345fund.com/login
-              description: 
-        - term: 综合导航
-          links:
-            - title: 见微数据
-              logo: https://api.iowen.cn/favicon/www.jianweidata.com.png
-              url: https://www.jianweidata.com/DueDiligence
-              description: 
-            - title: oslaw
-              logo: https://api.iowen.cn/favicon/www.oslaw.net.png
-              url: https://www.oslaw.net/
-              description: 各类网站导航
+  - term: 企业信息
+    links:
+    - title: 国家企业信用信息公示网站
+      logo: https://icon.horse/icon/gsxt.gov.cn?size=large
+      url: https://www.gsxt.gov.cn/
+      description: null
+    - title: 企查查
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://qcc.com&size=128
+      url: https://www.qcc.com/
+      description: 查询企业信息。会员登录权限可向管理员申请
+    - title: 天眼查
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://tianyancha.com&size=128
+      url: https://www.tianyancha.com
+      description: 查询企业信息。会员登录权限可向管理员申请
+    - title: 巨潮信息
+      logo: https://icon.horse/icon/cninfo.com.cn?size=large
+      url: http://www.cninfo.com.cn/new/index
+      description: 查询上市公司公告信息
+    - title: 金融监管查询
+      logo: https://icon.horse/icon/jrcpcx.cn?size=large
+      url: https://www.jrcpcx.cn/#/query
+      description: 金融机构监管查询平台
+  - term: 证书查验
+    links:
+    - title: 境外学历学位认证书在线查询
+      logo: https://icon.horse/icon/zwfwbl.cscse.edu.cn?size=large
+      url: http://zwfwbl.cscse.edu.cn/homeView/contactUs?type=2
+      description: 中国留学网---留学e网通服务大厅
+    - title: 中国高等教育学历证书查询
+      logo: https://icon.horse/icon/chsi.com.cn?size=large
+      url: https://www.chsi.com.cn/xlcx/lscx/query.do
+      description: 中国学信网
+    - title: FRM持证人查验
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://garp.org&size=128
+      url: https://www.garp.org/frm/our-certified-frms
+      description: FRM Directory Search
+    - title: CFA持证人查验
+      logo: https://favicon.im/directory.cfainstitute.org?larger=true
+      url: https://directory.cfainstitute.org/
+      description: CQF Member Directory Search
+    - title: 信息学竞赛选手获奖记录
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://oier.baoshuo.dev&size=128
+      url: https://oier.baoshuo.dev/?advanced=1&province=&grade=&school=
+      description: 这是一个信息学竞赛选手获奖记录并对学校进行排名的数据库
+  - term: 法律诉讼
+    links:
+    - title: 无讼网
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://itslaw.com&size=128
+      url: https://www.itslaw.com/home
+      description: 诉讼案件查询
+    - title: 中国判决文书网
+      logo: https://icon.horse/icon/wenshu.court.gov.cn?size=large
+      url: https://wenshu.court.gov.cn/
+      description: 查询判决文书信息
+    - title: 中国执行信息公开网
+      logo: https://icon.horse/icon/zxgk.court.gov.cn?size=large
+      url: http://zxgk.court.gov.cn/
+      description: 中国执行信息公开网 执行指南 财产处置 询价评估 司法拍卖 公告公示 执行案款公告 询价评估结果公示 123456 攻坚解决执行难
+        执行资讯 执行案例 执行微电影 公益广告 执行一线｜共建司法合作机制...
+  - term: 综合导航
+    links:
+    - title: 见微数据
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jianweidata.com&size=128
+      url: https://www.jianweidata.com/DueDiligence
+      description: 见微数据是一个专业金融信息平台，为资本市场从业者提供A股、三板、港股、美股及债券等多个板块的高效、便捷的信息披露检索服务和其他数据服务。香侬科技提供支持。免费注册即可使用！
+    - title: OSLAW
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://oslaw.net&size=128
+      url: https://www.oslaw.net/
+      description: 各类网站导航
 - taxonomy: 交易所官网
   icon: fas fa-film fa-lg
   list:
-        - term: 国内证券和期货交易所
-          links:
-            - title: 深圳证券交易所
-              logo: https://api.iowen.cn/favicon/www.szse.cn.png
-              url: http://www.szse.cn/index/index.html
-              description: 
-            - title: 上海证券交易所
-              logo: https://api.iowen.cn/favicon/www.sse.com.cn.png
-              url: http://www.sse.com.cn/
-              description: 
-            - title: 北京证券交易所
-              logo: https://api.iowen.cn/favicon/www.bse.cn.png
-              url: https://www.bse.cn/
-              description: 
-            - title: 中国金融期货交易所
-              logo: https://api.iowen.cn/favicon/www.cffex.com.cn.png
-              url: http://www.cffex.com.cn/
-              description: 
-            - title: 上海期货交易所
-              logo: https://api.iowen.cn/favicon/www.shfe.com.cn.png
-              url: https://www.shfe.com.cn/
-              description: 
-            - title: 郑州商品交易所
-              logo: https://api.iowen.cn/favicon/www.czce.com.cn.png
-              url: http://www.czce.com.cn/
-              description: 
-            - title: 大连商品交易所
-              logo: https://api.iowen.cn/favicon/www.dce.com.cn.png
-              url: http://www.dce.com.cn/
-              description: 
-            - title: 上海国际能源交易中心
-              logo: https://api.iowen.cn/favicon/www.ine.cn.png
-              url: https://www.ine.cn/
-              description: 
-        - term: 境外证券和期货交易所
-          links:
-            - title: 纳斯达克证券交易所
-              logo: https://api.iowen.cn/favicon/www.nasdaq.com.png
-              url: https://www.nasdaq.com/
-              description: 
-            - title: 纽约证券交易所
-              logo: https://api.iowen.cn/favicon/www.nyse.com.png
-              url: https://www.nyse.com/index
-              description: 
-            - title: 欧洲证券交易所
-              logo: https://api.iowen.cn/favicon/www.euronext.com.png
-              url: https://www.euronext.com/en
-              description: 
-            - title: 伦敦证券交易所
-              logo: https://api.iowen.cn/favicon/www.londonstockexchange.com.png
-              url: https://www.londonstockexchange.com/
-              description: 
-            - title: 东京证券交易所
-              logo: https://api.iowen.cn/favicon/www.jpx.co.jp.png
-              url: https://www.jpx.co.jp/english/
-              description: 
-            - title: 香港证券交易所
-              logo: https://api.iowen.cn/favicon/www.hkex.com.hk.png
-              url: https://www.hkex.com.hk/?sc_lang=zh-HK
-              description: 
-            - title: 新加坡交易所
-              logo: https://api.iowen.cn/favicon/www.sgx.com.png
-              url: https://www.sgx.com/zh-hans/
-              description: 
-            - title: 芝加哥商品交易所CME
-              logo: https://api.iowen.cn/favicon/www.cmegroup.com.png
-              url: https://www.cmegroup.com/cn-t/
-              description: 美国最大，全球第二的期货交易所，是全球原油，黄金，铜等品种的重要定价中心之一
-            - title: 芝加哥期权交易所CBOE
-              logo: https://api.iowen.cn/favicon/www.cboe.com.png
-              url: https://www.cboe.com/
-              description: 世界交易规模最大，最具代表性的农产品交易所，全球谷物类商品的定价中心。
-            - title: 伦敦金属交易所LME
-              logo: https://api.iowen.cn/favicon/www.lme.com.png
-              url: https://www.lme.com/en/CN
-              description: 
-            - title: 伦敦国际金融期货期权交易所LIFFE
-              logo: https://api.iowen.cn/favicon/www.liffe.com.png
-              url: http://www.liffe.com/
-              description: 
-            - title: 欧洲期货交易所EUREX
-              logo: https://api.iowen.cn/favicon/www.eurexchange.cn.png
-              url: http://www.eurexchange.cn/
-              description: 
-            - title: 美国洲际交易所
-              logo: https://api.iowen.cn/favicon/www.theice.com.png
-              url: http://www.theice.com/
-              description: 
+  - term: 中国大陆证券和期货交易所
+    links:
+    - title: 深圳证券交易所
+      logo: https://icon.horse/icon/szse.cn?size=large
+      url: http://www.szse.cn/index/index.html
+      description: '首页 位置：首页 重要更新: 用户入口 注册制 用户入口 投资者 上市公司 拟上市企业 会员机构 基金公司 固收承销 保荐人
+        政府机构 媒体单位 产品中心 阳光监管透明服务 产品中心 股票 基金 公募...'
+    - title: 上海证券交易所
+      logo: https://icon.horse/icon/sse.com.cn?size=large
+      url: http://www.sse.com.cn/
+      description: 首页 | 上海证券交易所
+    - title: 北京证券交易所
+      logo: https://icon.horse/icon/bse.cn?size=large
+      url: https://www.bse.cn/
+      description: 北京证券交易所 - www.bse.cn
+    - title: 中国金融期货交易所
+      logo: https://icon.horse/icon/cffex.com.cn?size=large
+      url: http://www.cffex.com.cn/
+      description: 中国金融期货交易所 <![endif]- -> 由于您使用的浏览器版本过低，无法使用本网站所有功能，建议升级至IE9.0以上版本，或使用Chrome、Safari最新版本浏览。
+        关闭 + 首页 新闻公...
+    - title: 上海期货交易所
+      logo: https://icon.horse/icon/shfe.com.cn?size=large
+      url: https://www.shfe.com.cn/
+      description: 上海期货交易所 高级搜索 EN 繁 简 首页 产品 数据 服务 规则 公告 关于 期货 金属 铜 铜(BC) 铝 锌 铅 镍
+        锡 氧化铝 铸造铝合金 黄金 白银 螺纹钢 线材 热轧卷板 不锈钢 能源化...
+    - title: 郑州商品交易所
+      logo: https://icon.horse/icon/czce.com.cn?size=large
+      url: http://www.czce.com.cn/
+      description: null
+    - title: 大连商品交易所
+      logo: https://icon.horse/icon/dce.com.cn?size=large
+      url: http://www.dce.com.cn/
+      description: null
+    - title: 上海国际能源交易中心
+      logo: https://icon.horse/icon/ine.cn?size=large
+      url: https://www.ine.cn/
+      description: 上海国际能源交易中心 高级搜索 EN 繁 简 首页 产品 数据 服务 规则 公告 关于 期货 能源化工 原油 低硫燃料油 20号胶
+        金属 铜(BC) 指数 SCFIS欧线 期权 原油 ISIN编码 业...
+  - term: 亚洲交易所
+    links:
+    - title: 东京证券交易所
+      logo: https://favicon.im/jpx.co.jp?larger=true
+      url: https://www.jpx.co.jp/english/
+      description: The official website of Japan Exchange Group (JPX). JPX operates
+        Tokyo Stock Exchange, Osaka Exchang...
+    - title: 香港证券交易所
+      logo: null
+      url: https://www.hkex.com.hk/?sc_lang=zh-HK
+      description: 亞洲領先國際資本市場——香港交易所的最新消息、數據、產品、服務及上市資訊。
+    - title: 新加坡交易所
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sgx.com&size=128
+      url: https://www.sgx.com/zh-hans/
+      description: 亚洲最具国际化的多元资产交易所，深受大众信赖，以最高的监管标准运营证券、固定收益及衍生品市场。
+    - title: MCEX 滴灌通澳交所
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://microconnect.com&size=128
+      url: https://microconnect.com/
+      description: Fuel Growth.Share Growth. INVEST IN THE TRANSFORMATION OF CHINA’S
+        SMALL BUSINESSES.
+  - term: 境外证券和期货交易所
+    links:
+    - title: NASDAQ
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://nasdaq.com&size=128
+      url: https://www.nasdaq.com/
+      description: 纳斯达克证券交易所
+    - title: NYSE
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://nyse.com&size=128
+      url: https://www.nyse.com/index
+      description: 纽约证券交易所
+    - title: EURONEXT
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://euronext.com&size=128
+      url: https://www.euronext.com/en
+      description: 欧洲证券交易所
+    - title: LSE
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://londonstockexchange.com&size=128
+      url: https://www.londonstockexchange.com/
+      description: 伦敦证券交易所
+    - title: CME
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cmegroup.com&size=128
+      url: https://www.cmegroup.com/cn-t/
+      description: 芝加哥商品交易所。美国最大，全球第二的期货交易所，是全球原油，黄金，铜等品种的重要定价中心之一。
+    - title: CBOE
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cboe.com&size=128
+      url: https://www.cboe.com/
+      description: 芝加哥期权交易所CBOE。世界交易规模最大，最具代表性的农产品交易所，全球谷物类商品的定价中心。
+    - title: LME
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://lme.com&size=128
+      url: https://www.lme.com/en/CN
+      description: 伦敦金属交易所
+    - title: LIFFE
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://liffe.com&size=128
+      url: http://www.liffe.com/
+      description: 伦敦国际金融期货期权交易所
+    - title: EUREX
+      logo: https://icon.horse/icon/eurexchange.cn?size=large
+      url: http://www.eurexchange.cn/
+      description: 欧洲期货交易所
+    - title: ICE
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://theice.com&size=128
+      url: http://www.theice.com/
+      description: 美国洲际交易所
+  - term: 全球交易所
+    links:
+    - title: PolyMarket
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://polymarket.com&size=128
+      url: https://polymarket.com/elections
+      description: 博彩网站
+    - title: COINBASE
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://coinbase.com&size=128
+      url: https://www.coinbase.com/
+      description: null
+    - title: BINANCE GLOBAL
+      url: https://www.binance.com
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://binance.com&size=128
+      description: 币安
+    - title: OKX
+      url: https://www.okx.com/
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://okx.com&size=128
+      description: 欧易
+    - title: DERIBIT
+      url: https://www.deribit.com/
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://deribit.com&size=128
+      description: World's biggest Bitcoin and Ethereum Options Exchange and the most
+        advanced crypto derivatives tradi...
+    - title: CoinMarketCap
+      url: https://coinmarketcap.com/
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://coinmarketcap.com&size=128
+      description: Top cryptocurrency prices and charts, listed by market capitalization.
+        Free access to current and hi...
 - taxonomy: 数据资讯
   icon: fas fa-film fa-lg
   list:
-        - term: 宏观资讯
-          links:
-            - title: 中国人民银行
-              logo: https://api.iowen.cn/favicon/www.pbc.gov.cn.png
-              url: http://www.pbc.gov.cn/
-              description:
-            - title: 中国银行间市场交易商协会
-              logo: https://api.iowen.cn/favicon/www.nafmii.org.cn.png
-              url: https://www.nafmii.org.cn/
-              description:
-            - title: 中国财政部
-              logo: https://api.iowen.cn/favicon/www.mof.gov.cn.png
-              url: http://www.mof.gov.cn/gkml/caizhengshuju/
-              description:
-            - title: 中国债券信息网
-              logo: https://api.iowen.cn/favicon/www.chinabond.com.cn.png
-              url: https://www.chinabond.com.cn/
-              description: 债券信息官网
-            - title: 中债收益率曲线
-              logo: https://api.iowen.cn/favicon/www.chinabond.com.cn.png
-              url: https://yield.chinabond.com.cn/
-              description: 中债收益率曲线
-            - title: 国家统计局
-              logo: https://api.iowen.cn/favicon/www.stats.gov.cn.png
-              url: http://www.stats.gov.cn/
-              description:
-            - title: 中国外汇交易中心
-              logo: https://api.iowen.cn/favicon/www.chinamoney.com.cn.png
-              url: https://www.chinamoney.com.cn/chinese/index.html
-              description: 查询汇率、LPR、Shibor等指数
-            - title: 美联储
-              logo: https://api.iowen.cn/favicon/www.federalreserve.gov.png
-              url: https://www.federalreserve.gov/
-              description:
-            - title: FRED
-              logo: https://api.iowen.cn/favicon/fred.stlouisfed.org.png
-              url: https://fred.stlouisfed.org/
-              description:
-            - title: BLS
-              logo: https://api.iowen.cn/favicon/www.bls.gov.png
-              url: https://www.bls.gov/
-              description: 美国经济数据
-            - title: 世界银行
-              logo: https://api.iowen.cn/favicon/data.worldbank.org.png
-              url: https://data.worldbank.org/
-              description:
-            - title: 全球利率
-              logo: https://api.iowen.cn/favicon/www.global-rates.com.png
-              url: https://www.global-rates.com/
-              description:
-            - title: CME FedWatch
-              logo: https://api.iowen.cn/favicon/www.cmegroup.com
-              url: https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html
-              description: 联邦利率观察工具
-            - title: 美国大选民调
-              logo: https://api.iowen.cn/favicon/polymarket.com
-              url: https://polymarket.com/elections
-              description: 美国大选民调
-        - term: 中观资讯
-          links:
-            - title: 中国工信部
-              logo: https://api.iowen.cn/favicon/www.miit.gov.cn.png
-              url: https://www.miit.gov.cn/
-              description:
-            - title: 中国通信院
-              logo: https://api.iowen.cn/favicon/www.caict.ac.cn.png
-              url: http://www.caict.ac.cn/
-              description:
-            - title: 报告查一查
-              logo: https://api.iowen.cn/favicon/www.seedhangyan.com.png
-              url: https://www.seedhangyan.com/#/index
-              description: 查询各类行业报告
-        - term: 商品相关
-          links:
-            - title: 北极星电力
-              logo: https://api.iowen.cn/favicon/www.bjx.com.cn.png
-              url: http://www.bjx.com.cn/
-              description:
-            - title: 中国电力网
-              logo: https://api.iowen.cn/favicon/www.chinapower.com.cn.png
-              url: http://www.chinapower.com.cn/
-              description:
-            - title: 美国能源信息管理
-              logo: https://api.iowen.cn/favicon/www.eia.gov/petroleum.png
-              url: https://www.eia.gov/petroleum/data.php
-              description:
-        - term: 证券相关
-          links:
-            - title: 中国证券监督管理委员会
-              logo: https://api.iowen.cn/favicon/www.csrc.gov.cn.png
-              url: http://www.csrc.gov.cn/
-              description:
-            - title: 中国证券业协会
-              logo: https://api.iowen.cn/favicon/www.sac.net.cn.png
-              url: http://www.sac.net.cn/
-              description:
-        - term: 基金相关
-          links:
-            - title: ETF数据库
-              logo: https://api.iowen.cn/favicon/www.etf.com.png
-              url: https://www.etf.com/
-              description:
-            - title: ETF数据库
-              logo: https://api.iowen.cn/favicon/etfdb.com.png
-              url: https://etfdb.com/
-              description:
-            - title: 中国基金业协会
-              logo: https://api.iowen.cn/favicon/gs.amac.org.cn.png
-              url: https://gs.amac.org.cn/
-              description:
-            - title: 天天基金网
-              logo: https://api.iowen.cn/favicon/fund.eastmoney.com.png
-              url: https://fund.eastmoney.com/
-              description: 查询各类基金信息
-            - title: REIT
-              logo: https://api.iowen.cn/favicon/www.reit.com.png
-              url: https://www.reit.com/data-research
-              description:
-        - term: 指数相关
-          links:
-            - title: 中证指数
-              logo: https://api.iowen.cn/favicon/www.csindex.com.cn.png
-              url: https://www.csindex.com.cn
-              description: 中证各项指数官网
-            - title: 国证指数
-              logo: https://api.iowen.cn/favicon/www.cnindex.com.cn.png
-              url: http://www.cnindex.com.cn/
-              description: 国证各项指数官网
-        - term: 投资参考
-          links:
-            - title: 期权论坛
-              logo: https://api.iowen.cn/favicon/www.optbbs.com.png
-              url: https://www.optbbs.com/
-              description: 股指期货合约
-            - title: 集思录
-              logo: https://api.iowen.cn/favicon/www.jisilu.cn.png
-              url: https://www.jisilu.cn/
-              description: 股票、可转债、债券等综合资讯浏览
-            - title: 9期网
-              logo: https://api.iowen.cn/favicon/www.9qihuo.com.png
-              url: http://www.9qihuo.com/qihuoshouxufei
-              description: 查询商品期货在各大交易所的手续费等信息
-            - title: 期货手续费
-              logo: https://api.iowen.cn/favicon/www.qhsxf.com.png
-              url: http://www.qhsxf.com/
-              description: 提供最新的期货交易所手续费、交易所保证金、期货交易时间、期货公司排名等信息
-        - term: 综合数据
-          links:
-            - title: 金融数据导航
-              logo: https://api.iowen.cn/favicon/www.koubeilicai.com.png
-              url: http://www.koubeilicai.com/index.html?hmsr=zhihu
-              description:
-            - title: CEIC数据
-              logo: https://api.iowen.cn/favicon/www.ceicdata.com.png
-              url: https://www.ceicdata.com/zh-hans
-              description: 宏观微观经济数据
-            - title: 慧博投研
-              logo: https://api.iowen.cn/favicon/www.microbell.com.png
-              url: https://www.microbell.com/
-              description:
-        - term: 其他资讯
-          links:
-            - title: CIA
-              logo: https://api.iowen.cn/favicon/www.cia.gov.png
-              url: https://www.cia.gov/the-world-factbook/countries/world/
-              description:
-            - title: 世界卫生组织
-              logo: https://api.iowen.cn/favicon/www.wto.org.png
-              url: https://www.wto.org/index.htm
-              description:
-            - title: 联合国数据
-              logo: https://api.iowen.cn/favicon/unstats.un.org.png
-              url: https://unstats.un.org/home
-              description:
+  - term: 宏观资讯
+    links:
+    - title: 中国人民银行
+      logo: https://icon.horse/icon/pbc.gov.cn?size=large
+      url: http://www.pbc.gov.cn/
+      description: 中国人民银行 术语表 网站地图 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎
+        信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民...
+    - title: 中国银行间市场交易商协会
+      logo: https://icon.horse/icon/nafmii.org.cn?size=large
+      url: https://www.nafmii.org.cn/
+      description: 中国银行间市场交易商协会
+    - title: 中国财政部
+      logo: https://icon.horse/icon/mof.gov.cn?size=large
+      url: http://www.mof.gov.cn/gkml/caizhengshuju/
+      description: 财政数据 EN 热门检索：财政收支积极财政政策减税降费 首页 职能机构 新闻报道 信息公开 政务服务 交流互动 专题专栏 财政视频
+        您现在的位置：首页>信息公开>财政数据 2025年1-7月全国国有及...
+    - title: 中国债券信息网
+      logo: https://icon.horse/icon/chinabond.com.cn?size=large
+      url: https://www.chinabond.com.cn/
+      description: 债券信息官网
+    - title: 中债收益率曲线
+      logo: https://icon.horse/icon/yield.chinabond.com.cn?size=large
+      url: https://yield.chinabond.com.cn/
+      description: 中债收益率曲线
+    - title: 国家统计局
+      logo: https://icon.horse/icon/stats.gov.cn?size=large
+      url: http://www.stats.gov.cn/
+      description: 国家统计局 EN 搜索 首页 机构 新闻 时政要闻 统计新闻 数据 公开 服务 互动 知识 专题 习近平会见俄罗斯国家杜马主席沃洛金
+        习近平会见俄罗斯国家杜马主席沃洛金 习近平会见俄罗斯国家杜马主席沃...
+    - title: 中国外汇交易中心
+      logo: https://icon.horse/icon/chinamoney.com.cn?size=large
+      url: https://www.chinamoney.com.cn/chinese/index.html
+      description: 查询汇率、LPR、Shibor等指数
+    - title: 美联储
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://federalreserve.gov&size=128
+      url: https://www.federalreserve.gov/
+      description: The Federal Reserve Board of Governors in Washington DC.
+    - title: FRED
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fred.stlouisfed.org&size=128
+      url: https://fred.stlouisfed.org/
+      description: Download, graph, and track 840,000 economic time series from 118
+        sources.
+    - title: BLS
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://bls.gov&size=128
+      url: https://www.bls.gov/
+      description: 美国经济数据
+    - title: 世界银行
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://data.worldbank.org&size=128
+      url: https://data.worldbank.org/
+      description: 'World Bank Open Data from The World Bank: Data'
+    - title: 全球利率
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://global-rates.com&size=128
+      url: https://www.global-rates.com/
+      description: Overview of the most important international interest rates and
+        economic figures. Compare current an...
+    - title: CME FedWatch
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cmegroup.com&size=128
+      url: https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html
+      description: 联邦利率观察工具
+  - term: 中观资讯
+    links:
+    - title: 中国工信部
+      logo: https://icon.horse/icon/miit.gov.cn?size=large
+      url: https://www.miit.gov.cn/
+      description: 中华人民共和国工业和信息化部
+    - title: 中国通信院
+      logo: https://icon.horse/icon/caict.ac.cn?size=large
+      url: http://www.caict.ac.cn/
+      description: null
+    - title: 报告查一查
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://seedhangyan.com&size=128
+      url: https://www.seedhangyan.com/#/index
+      description: 查询各类行业报告
+  - term: 商品相关
+    links:
+    - title: 北极星电力
+      logo: https://icon.horse/icon/bjx.com.cn?size=large
+      url: http://www.bjx.com.cn/
+      description: 北极星电力网创立于1999年12月，一直专注于电力领域，为电力行业人士提供电力行业资讯、政策解读、技术交流、人才招聘和电子商务等服务。
+    - title: 中国电力网
+      logo: https://icon.horse/icon/chinapower.com.cn?size=large
+      url: http://www.chinapower.com.cn/
+      description: 电力网由中国电力发展促进会主办，面向能源、电力等相关领域专业人群提供新闻、智库、资料、数据、政策、招聘信息，以及电网、发电、光伏、风电、储能、氢能、综合能源、碳中和、能源互联网、农电、充电桩等专业信息
+    - title: 美国能源信息管理
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://eia.gov&size=128
+      url: https://www.eia.gov/petroleum/data.php
+      description: Petroleum & Other Liquids Data - U.S. Energy Information Administration
+        (EIA)
+  - term: 证券相关
+    links:
+    - title: 中国证券监督管理委员会
+      logo: https://icon.horse/icon/csrc.gov.cn?size=large
+      url: http://www.csrc.gov.cn/
+      description: 中国证券监督管理委员会
+    - title: 中国证券业协会
+      logo: https://icon.horse/icon/sac.net.cn?size=large
+      url: http://www.sac.net.cn/
+      description: 欢迎您访问中国证券业协会网站
+  - term: 基金相关
+    links:
+    - title: ETF.com
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://etf.com&size=128
+      url: https://www.etf.com/
+      description: ETF数据库和分析工具
+    - title: ETFdb
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://etfdb.com&size=128
+      url: https://etfdb.com/
+      description: 全面的ETF数据库和研究平台
+    - title: 中国基金业协会
+      logo: https://icon.horse/icon/gs.amac.org.cn?size=large
+      url: https://gs.amac.org.cn/
+      description: 信息公示 - 中国基金业协会
+    - title: 天天基金网
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fund.eastmoney.com&size=128
+      url: https://fund.eastmoney.com/
+      description: 查询各类基金信息
+    - title: REIT
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://reit.com&size=128
+      url: https://www.reit.com/data-research
+      description: 房地产投资信托基金数据
+    - title: 私募排排网
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://simuwang.com&size=128
+      url: https://www.simuwang.com/
+      description: 私募基金信息查询平台
+    - title: 火富牛FOF
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://mp.fof99.com&size=128
+      url: https://mp.fof99.com/index/v1
+      description: FOF基金组合投资平台
+    - title: 朝阳永续
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cloud.12345fund.com&size=128
+      url: https://cloud.12345fund.com/login
+      description: 金融数据和投资研究平台
+  - term: 指数相关
+    links:
+    - title: 中证指数
+      logo: https://icon.horse/icon/csindex.com.cn?size=large
+      url: https://www.csindex.com.cn
+      description: 中证各项指数官网
+    - title: 国证指数
+      logo: https://icon.horse/icon/cnindex.com.cn?size=large
+      url: http://www.cnindex.com.cn/
+      description: 国证各项指数官网
+  - term: 投资参考
+    links:
+    - title: 期权论坛
+      logo: https://icons.duckduckgo.com/ip3/optbbs.com.ico
+      url: https://www.optbbs.com/
+      description: 股指期货合约
+    - title: 集思录
+      logo: https://icon.horse/icon/jisilu.cn?size=large
+      url: https://www.jisilu.cn/
+      description: 股票、可转债、债券等综合资讯浏览
+    - title: 9期网
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://9qihuo.com&size=128
+      url: http://www.9qihuo.com/qihuoshouxufei
+      description: 查询商品期货在各大交易所的手续费等信息
+    - title: 期货手续费
+      logo: https://favicon.im/qhsxf.com?larger=true
+      url: http://www.qhsxf.com/
+      description: 提供最新的期货交易所手续费、交易所保证金、期货交易时间、期货公司排名等信息
+    - title: StockCircle
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://stockcircle.com&size=128
+      url: https://stockcircle.com/
+      description: 股票投资圈子和资讯平台
+    - title: OpenVLab 波动率分析
+      logo: https://icon.horse/icon/openvlab.cn?size=large
+      url: https://openvlab.cn/volatility/overview
+      description: 开源量化平台波动率分析工具
+    - title: OpenCTP 费用查询
+      logo: https://icon.horse/icon/openctp.cn?size=large
+      url: http://openctp.cn/fees.html
+      description: 开源期货交易平台费用查询，仅限中国品种
+    - title: 聚宽因子库
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://joinquant.com&size=128
+      url: https://www.joinquant.com/view/factorlib/list
+      description: 聚宽量化投资因子库
+  - term: 综合数据
+    links:
+    - title: 金融数据导航
+      logo: null
+      url: http://www.koubeilicai.com/index.html?hmsr=zhihu
+      description: null
+    - title: CEIC数据
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ceicdata.com&size=128
+      url: https://www.ceicdata.com/zh-hans
+      description: 宏观微观经济数据
+    - title: 慧博投研
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://microbell.com&size=128
+      url: https://www.microbell.com/
+      description: 迈博汇金(microbell.com)-专业的投资研究报告大数据平台，全方位覆盖证券、股票、期货、行业报告、券商、机构、个股调研报告、上市公司等垂直免费研报，慧博旗下智能策略终端和投资分析APP是辅助...
+    - title: StockCircle
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://stockcircle.com&size=128
+      url: https://stockcircle.com/
+      description: 知名投资人、政府官员等持仓信息
+    - title: Open SLUM
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://open-slum.org&size=128
+      url: https://open-slum.org/
+      description: The Shadow Library Uptime Monitor(incl. zlib, libgen, )
+    - title: CIA
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cia.gov&size=128
+      url: https://www.cia.gov/the-world-factbook/countries/world/
+      description: World - The World Factbook
+    - title: 世界贸易组织
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://wto.org&size=128
+      url: https://www.wto.org/index.htm
+      description: 世界贸易组织
+    - title: 世界卫生组织
+      logo: null
+      url: https://www.who.int/
+      description: 世界卫生组织
+    - title: UN联合国数据
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://unstats.un.org&size=128
+      url: https://unstats.un.org/home
+      description: UN联合国数据 - unstats.un.org
 - taxonomy: 效率工具
   icon: fas fa-film fa-lg
   list:
-        - term: 代码编程
-          links:
-            - title: IT Tools
-              logo: https://github.com/CorentinTh/it-tools/blob/main/public/mstile-70x70.png?raw=true
-              url: https://it-tools.tech/
-              description:
-            - title: 编程速查
-              logo: https://raw.githubusercontent.com/jaywcjlove/reference/100297d821b1929823664cf903b9aab738a8e114/assets/quickreference.svg
-              url: https://quickref.cn/index.html
-              description: 
-            - title: Markdown在线编辑
-              logo: https://api.iowen.cn/favicon/www.stackedit.io.png
-              url: https://www.stackedit.io/
-              description: 
-            - title: Markdown表格生成
-              logo: https://api.iowen.cn/favicon/www.tablesgenerator.com.png
-              url: https://www.tablesgenerator.com/markdown_tables
-              description: 
-            - title: 正则表达式生成
-              logo: https://api.iowen.cn/favicon/regex-generator.olafneumann.org.png
-              url: https://regex-generator.olafneumann.org/
-              description: 
-            - title: Latex速写
-              logo: https://api.iowen.cn/favicon/www.latexlive.com.png
-              url: https://www.latexlive.com/
-              description: 
-        - term: 网络运维
-          links:
-            - title: ping
-              logo: https://api.iowen.cn/favicon/www.ping.pe.png
-              url: http://www.ping.pe/
-              description: 
-            - title: chinaz
-              logo: https://api.iowen.cn/favicon/ping.chinaz.com.png
-              url: http://ping.chinaz.com/1.1.1.1
-              description: 
-            - title: 站长工具
-              logo: https://api.iowen.cn/favicon/coolaf.com.png
-              url: http://coolaf.com/tool/port
-              description: 
-            - title: yougetsignal
-              logo: https://api.iowen.cn/favicon/www.yougetsignal.com.png
-              url: https://www.yougetsignal.com/tools/open-ports/
-              description: 
-            - title: ipip
-              logo: https://api.iowen.cn/favicon/www.ipip.net.png
-              url: https://www.ipip.net/
-              description: 
-            - title: whatismyip
-              logo: https://api.iowen.cn/favicon/www.whatismyip.com.png
-              url: https://www.whatismyip.com/
-              description: 
-            - title: silisoftware
-              logo: https://api.iowen.cn/favicon/ www.silisoftware.com.png
-              url: https://www.silisoftware.com/tools/ipconverter.php
-              description: 
-            - title: Crontab生成器
-              logo: https://api.iowen.cn/favicon/crontab-generator.org.png
-              url: https://crontab-generator.org/
-              description: 
-        - term: 其他工具
-          links:
-            - title: 在线流程图制作
-              logo: https://api.iowen.cn/favicon/app.diagrams.net.png
-              url: https://app.diagrams.net/
-              description: 
-            - title: 有道词典
-              logo: https://api.iowen.cn/favicon/www.youdao.com.png
-              url: https://www.youdao.com/
-              description: 
-            - title: 有道翻译
-              logo: https://api.iowen.cn/favicon/fanyi.youdao.com.png
-              url: http://fanyi.youdao.com/
-              description: 
-            - title: 优品PPT
-              logo: https://api.iowen.cn/favicon/www.ypppt.com.png
-              url: http://www.ypppt.com/
-              description: 高质量的模版，而且还有PPT图表，PPT背景图等资源
-            - title: 稿定
-              logo: https://api.iowen.cn/favicon/www.gaoding.com.png
-              url: https://www.gaoding.com
-              description: 各类图片设计、编辑
+  - term: 代码编程
+    links:
+    - title: IT Tools
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://it-tools.tech&size=128
+      url: https://it-tools.tech/
+      description: Collection of handy online tools for developers, with great UX.
+        IT Tools is a free and open-source c...
+    - title: 编程速查
+      logo: https://icon.horse/icon/quickref.cn?size=large
+      url: https://quickref.cn/index.html
+      description: Quick Reference & Quick Reference
+    - title: Markdown在线编辑
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://stackedit.io&size=128
+      url: https://www.stackedit.io/
+      description: null
+    - title: Markdown表格生成
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://tablesgenerator.com&size=128
+      url: https://www.tablesgenerator.com/markdown_tables
+      description: null
+    - title: 正则表达式生成
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://regex-generator.olafneumann.org&size=128
+      url: https://regex-generator.olafneumann.org/
+      description: A tool to generate simple regular expressions from sample text.
+        Enable less experienced developers t...
+    - title: Latex速写
+      logo: https://favicon.im/latexlive.com?larger=true
+      url: https://www.latexlive.com/
+      description: 识别图片中的公式！免费的在线LaTeX公式编辑器。支持SVG、超大PNG、JPG、MathML、带有命名空间前缀的MathML、SVGCode、HTML、OMML、Word文档等多种格式导出。可以打出...
+  - term: 网络运维
+    links:
+    - title: Ping.ge
+      logo: https://favicon.im/ping.pe?larger=true
+      url: http://www.ping.pe/
+      description: The Best Ping+MTR combination Ever, plus TCP port checker and DNS
+        diagnostics with dig, plus real ti...
+    - title: ChinaZ
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ping.chinaz.com&size=128
+      url: http://ping.chinaz.com/1.1.1.1
+      description: 通过该工具可以多个地点Ping服务器以检测服务器响应速度。
+    - title: 站长工具
+      logo: https://icons.duckduckgo.com/ip3/coolaf.com.ico
+      url: http://coolaf.com/tool/port
+      description: 在线检测、扫描域名或者ip的端口是否开放
+    - title: YouGetSignal
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://yougetsignal.com&size=128
+      url: https://www.yougetsignal.com/tools/open-ports/
+      description: Port checker is a utility used to identify your external IP address
+        and detect open ports on your co...
+    - title: IPIP
+      logo: https://icons.duckduckgo.com/ip3/ipip.net.ico
+      url: https://www.ipip.net/
+      description: IPIP.NET_专业精准的IP库服务商_IPIP
+    - title: Whatismyip
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://whatismyip.com&size=128
+      url: https://www.whatismyip.com/
+      description: What is my IP? Instantly check your public IP address. My IP address
+        location information shows city...
+    - title: Silisoftware
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://silisoftware.com&size=128
+      url: https://www.silisoftware.com/tools/ipconverter.php
+      description: IP converter
+    - title: Crontab生成器
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://crontab-generator.org&size=128
+      url: https://crontab-generator.org/
+      description: Generate your crontab line easily.
+  - term: 其他工具
+    links:
+    - title: 在线流程图制作
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://app.diagrams.net&size=128
+      url: https://app.diagrams.net/
+      description: Flowchart Maker & Online Diagram Software
+    - title: 有道词典
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://youdao.com&size=128
+      url: https://www.youdao.com/
+      description: 网易有道是中国领先的智能学习公司，致力于提供100%以用户为导向的学习产品和服务。有道成立于2006年，打造了一系列深受用户喜欢的口碑型大众学习工具产品，例如：网易有道词典、有道精品课、有道翻译官、有...
+    - title: 有道翻译
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fanyi.youdao.com&size=128
+      url: http://fanyi.youdao.com/
+      description: 有道翻译提供即时免费的中文、英语、日语、韩语、法语、德语、俄语、西班牙语、葡萄牙语、越南语、印尼语、意大利语、荷兰语、泰语全文翻译、网页翻译、文档翻译、PDF翻译、DOC翻译、PPT翻译、人工翻译、同...
+    - title: 优品PPT
+      logo: https://favicon.im/ypppt.com?larger=true
+      url: http://www.ypppt.com/
+      description: 高质量的模版，而且还有PPT图表，PPT背景图等资源
+    - title: 稿定
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gaoding.com&size=128
+      url: https://www.gaoding.com
+      description: 各类图片设计、编辑
+    - title: 北京时间
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://time.is&size=128
+      url: https://time.is/zh/Beijing
+      description: 精确的世界时间显示
 - taxonomy: 学习研究
   icon: fas fa-film fa-lg
   list:
-        - term: 策略研究
-          links:
-            - title: 牛津英仕曼策略研究
-              logo: https://api.iowen.cn/favicon/oxford-man.ox.ac.uk.png
-              url: https://oxford-man.ox.ac.uk/selected-publications/
-              description: 牛津英仕曼策略研究
-        - term: 在线课程
-          links:
-            - title: Coursera
-              logo: https://api.iowen.cn/favicon/www.coursera.org.png
-              url: https://www.coursera.org/
-              description: We envision a world where anyone, anywhere has the power to transform their lives through learning.
-            - title: Udacity
-              logo: https://api.iowen.cn/favicon/www.udacity.com.png
-              url: https://www.udacity.com/
-              description: Every course has real-world projects designed to develop the skills you need to reach your career goals.
-            - title: Udemy
-              logo: https://api.iowen.cn/favicon/www.udemy.com.png
-              url: https://www.udemy.com/
-              description: Welcome to where possibilities begin.
-            - title: MIT在线课程
-              logo: https://api.iowen.cn/favicon/ocw.mit.edu.png
-              url: https://ocw.mit.edu/
-              description: MIT在线课程
-            - title: 可汗学院
-              logo: https://api.iowen.cn/favicon/zh.khanacademy.org.png
-              url: https://zh.khanacademy.org/signup
-              description: 提供各类免费在线课程学习
-            - title: 慕课网
-              logo: https://api.iowen.cn/favicon/www.imooc.com.png
-              url: https://www.imooc.com/
-              description: 编程网课学习（有UI课程）
+  - term: 策略研究
+    links:
+    - title: 牛津英仕曼策略研究
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://oxford-man.ox.ac.uk&size=128
+      url: https://oxford-man.ox.ac.uk/selected-publications/
+      description: 牛津英仕曼策略研究
+  - term: 在线课程
+    links:
+    - title: Coursera
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://coursera.org&size=128
+      url: https://www.coursera.org/
+      description: We envision a world where anyone, anywhere has the power to transform
+        their lives through learning.
+    - title: Udacity
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://udacity.com&size=128
+      url: https://www.udacity.com/
+      description: Every course has real-world projects designed to develop the skills
+        you need to reach your career goals.
+    - title: Udemy
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://udemy.com&size=128
+      url: https://www.udemy.com/
+      description: Welcome to where possibilities begin.
+    - title: MIT在线课程
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ocw.mit.edu&size=128
+      url: https://ocw.mit.edu/
+      description: MIT在线课程
+    - title: 可汗学院
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://zh.khanacademy.org&size=128
+      url: https://zh.khanacademy.org/signup
+      description: 提供各类免费在线课程学习
+    - title: 慕课网
+      logo: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://imooc.com&size=128
+      url: https://www.imooc.com/
+      description: 编程网课学习（有UI课程）
